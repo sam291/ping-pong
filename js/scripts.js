@@ -1,15 +1,15 @@
-var awesome=function(Number){
-    for(Number=1;Number<30;Number ++){
-        if(Number%3===0 && Number%5===0){ alert("pingpong");
-    }else if(Number%3===0){alert("ping");
-    }else if(Number%5===0){alert("pong");   
-    }else if(alert(number));};};
+var awesome=function(number)
+{for(number=1;number<30;number ++){
+    if(number%3===0 && number%5===0){ alert("pingpong");
+    }else if(number%3===0){alert("ping");
+    }else if(number%5===0){alert("pong");   
+    }else{alert(number);};};};
 
     $(document).ready(function() {
-        $("form#number").submit(function(event){
+        $("form#kuria").submit(function(event){
             event.preventDefault();
-            var Number=parseInt($("input#put").val());
-            var Result=awesome(Number)
+            var number=parseInt($("input#input1").val());
+            var Result=awesome()
             $("ul#sam").append("<li>Result</li>");
     });
     });
