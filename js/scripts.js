@@ -10,7 +10,7 @@ var awesome=function(number)
             event.preventDefault();
             var number=parseInt($("input#input1").val());
             var Result=awesome()
-            $("ul#sam").append("<li>Result</li>");
+            $("ul#muiga").append("<li>Result</li>");
     });
     });
      
