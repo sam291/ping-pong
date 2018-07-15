@@ -1,5 +1,24 @@
 .jumbotron{
     text-align: center;
-    background-image: url(../images/gta.jpg);
-    size: 2000px
+    background-image: url(../images/images\ \(2\).png);
+    size: 2000px;
+    color: goldenrod;
+    top: 300px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 50px;
+    font-style: oblique
+}
+.col-md-9{
+    background-image: url(../images/johnny-bravo-5k-x9-1366x768.jpg);
+    bottom: 32px;
+    color: rgb(75, 133, 221);
+    
+}
+.col-md-3{
+    background-image: url(../images/rick-and-morty-2017-hd-vt-1366x7682.jpg);
+    bottom: 32px;
+    
 }
