@@ -2,23 +2,33 @@
     text-align: center;
     background-image: url(../images/images\ \(2\).png);
     size: 2000px;
-    color: goldenrod;
+    color: lightskyblue;
     top: 300px;
     font-weight: bolder;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h1{
     font-size: 50px;
-    font-style: oblique
+    font-style: oblique;
+    border-width: 200px
 }
 .col-md-9{
     background-image: url(../images/johnny-bravo-5k-x9-1366x768.jpg);
     bottom: 32px;
-    color: rgb(75, 133, 221);
+    color: lightblue;
     
 }
 .col-md-3{
     background-image: url(../images/rick-and-morty-2017-hd-vt-1366x7682.jpg);
     bottom: 32px;
+    color: lightblue
+    
+}
+h2{
+    color:yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-underline-position: below;
     
 }
