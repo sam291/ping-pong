@@ -1,3 +1,5 @@
-#sam {
-    background-color: blue;
+.jumbotron{
+    text-align: center;
+    background-image: url(../images/gta.jpg);
+    size: 2000px
 }
