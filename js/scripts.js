@@ -5,6 +5,8 @@ var awesome=function(number)
     }else if(number%5===0){alert("pong");   
     }else{alert(number);};};};
 
+    //business logic
+
     $(document).ready(function() {
         $("form#kuria").submit(function(event){
             event.preventDefault();
@@ -14,3 +16,4 @@ var awesome=function(number)
     });
     });
      
+    //user interface logic
