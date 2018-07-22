@@ -1,6 +1,7 @@
 .jumbotron{
     text-align: center;
-    background-image: url(../images/cooltext293589078399489.gif);
+    background-image: url(../images/cooltext293589741993089.gif);
+    background-size: 950px;
     size: 2000px;
     color: lightskyblue;
     top: 300px;
@@ -19,7 +20,8 @@ h1{
     
 }
 .col-md-3{
-    background-image: url(../images/rick-and-morty-2017-hd-vt-1366x7682.jpg);
+    background-image: url(../images/pingpong02.gif);
+    background-size:490px;
     bottom: 32px;
     color: lightblue
     
@@ -30,5 +32,10 @@ h2{
     font-style: italic;
     font-weight: bolder;
     text-underline-position: below;
+    
+}
+#new{
+    background-image: url(../images/colab_workspace_gif.gif);
+    width: 500px;
     
 }
