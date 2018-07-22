@@ -1,19 +1,30 @@
-var awesome=function(number)
-{for(number=1;number<30;number ++){
-    if(number%3===0 && number%5===0){ alert("pingpong");
-    }else if(number%3===0){alert("ping");
-    }else if(number%5===0){alert("pong");   
-    }else{alert(number);};};};
+//User Logic
+$(document).ready(function(){
+  $("form#kuria").submit(function(event){
+    event.preventDefault();
 
-    //business logic
+    myNumber = parseInt($("input#input1").val());
+    $("#result").text(" ");
+    react();
+    $("input#input1").val();
 
-    $(document).ready(function() {
-        $("form#kuria").submit(function(event){
-            event.preventDefault();
-            var number=parseInt($("input#input1").val());
-            var Result=awesome()
-            $("ul#muiga").append("<li>Result</li>");
-    });
-    });
-     
-    //user interface logic
+  });
+});
+
+//Business Logic
+var myNumber;
+  function react( ){
+  for(var i=1; i <= myNumber; i++){
+  if ((i %3) ===0 && (i %5) ===0) {
+      $("#result").append("<li>pingpong</li>");
+  }else if ((i %5)===0){
+      $("#result").append("<li>pong</li>");
+  }
+  else if ((i %3)===0){
+      $("#result").append("<li>ping</li>");
+  }
+  else{
+      $("#result").append("<li>"+ i +"</li>");
+    }
+  }
+} 
