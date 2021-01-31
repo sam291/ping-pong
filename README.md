@@ -16,7 +16,7 @@ This website was built with HTML, java script and also css
 It can only count up to a provided number which is 30
 
 ## LINK TO SITE
-https://sam291.github.io/ping-pong/
+https://sammuiga.github.io/ping-pong/
 
 ## SETUP INSTRUCTIONS
 open your default web browser
